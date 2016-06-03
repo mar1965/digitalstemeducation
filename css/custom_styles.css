@@ -1,0 +1,152 @@
+.navbar-brand {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.2em;
+}
+
+@media (min-width: 768px){
+.navbar-nav {
+    float: right;
+    margin: 0;
+  }
+}
+
+li {
+  font-size: 16px;
+}
+
+.hidethis, .deegeebtn {
+  opacity: 0;
+}
+
+.deegeebtn {
+  margin-top: 80px;
+}
+
+#aboutdetails {
+  height: 690px;
+}
+
+#projects {
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.section-text {
+  max-width:860px;
+  padding-top:20px;
+}
+
+.spacer {
+  height: 40px;
+}
+
+.quote {
+  color: #FFFFFF;
+  font-family: 'Stoke', serif;
+  font-style: normal;
+  font-size: 1.5em;
+  -webkit-font-family: 'Stoke', serif;
+  line-height: 1.5;
+  margin-top: 240px;
+  text-align: center;
+}
+
+#aboutdse {
+  height: 690px;
+  background-color: #EEEEEE;
+  padding-bottom: 50px;
+}
+
+.section-heading {
+  font-family: Raleway, 'Helvetica Neue', Helvetic, sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+}
+
+.copy-text, .btn-info {
+  font-family: 'Merriweather', serif;
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
+.btn-fill {
+  text-align: center;
+}
+
+.fa {
+  color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+    .quote {
+      font-size: 1em;
+      line-height: 1.25;
+      margin-top: 220px;
+    }
+
+    .navbar-brand {
+      font-size: 1em!important;
+    }
+
+    .section-heading {
+      font-size: 24px;
+      text-align: left;
+    }
+
+    .section-text {
+      padding-top: 5px;
+    }
+
+    .copy-text, .list-text {
+      font-size: 1em;
+      line-height: 1.5;
+    }
+
+    #aboutdse, #aboutdetails, #projects {
+      height: auto;
+      padding-bottom: 30px;
+    }
+
+    .deegeebtn {
+      font-size: 95%;
+    }
+
+    .glyphicon-menu-down {
+      font-size: 40px!important;
+    }
+
+    .navdown {
+      margin-top: 140px;
+    }
+
+}
+
+.glyphicon-cog {
+  font-size: 14px;
+  padding-left: 2px;
+}
+
+.navdown {
+  text-align: center;
+  margin-top: 260px;
+}
+
+.glyphicon-menu-down {
+  font-size: 60px;
+  opacity: 0.7;
+  color: #FFFFFF;
+}
+
+#site-footer {
+  position: relative;
+  height: 100%;
+  font-weight: 200;
+  text-align: center;
+  background-color: #333D47;
+  color: #999;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
